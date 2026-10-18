@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weden19 — дизайн, логотипы, VRChat</title>
+  <meta name="description" content="Weden19 — логотипы, дизайн, миры и аватары для VRChat.">
+  <meta name="theme-color" content="#0d0d12">
+  <meta property="og:title" content="Weden19">
+  <meta property="og:description" content="Логотипы · Дизайн · VRChat-миры и аватары">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Фон: размытые градиентные пятна + волны + зерно -->
+  <div class="bg" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+    <span class="blob blob--4"></span>
+    <svg class="waves" viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <path d="M0 620 C 240 520, 480 760, 720 640 S 1200 480, 1440 600"/>
+      <path d="M0 660 C 260 560, 500 800, 740 680 S 1220 520, 1440 640"/>
+      <path d="M0 700 C 280 600, 520 840, 760 720 S 1240 560, 1440 680"/>
+    </svg>
+    <div class="grain"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="logo" href="#top" aria-label="Weden19">
+      <img src="assets/favicon.svg" alt="" width="28" height="28">
+      <span>Weden19</span>
+    </a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="glass hero__card" id="heroCard">
+        <div class="hero__head">
+          <div>
+            <h1 class="hero__title">Weden19</h1>
+            <p class="hero__lead" data-i18n="lead">Дизайнер. Логотипы, визуал, миры и аватары для VRChat.</p>
+            <a class="pill" href="#contact" data-i18n="cta">Связаться</a>
+          </div>
+          <p class="hero__meta" data-i18n="meta">Логотипы • Дизайн • VRChat</p>
+        </div>
+        <div class="hero__foot">
+          <span data-i18n="status">Существую. Крутой.</span>
+          <a class="scroll" href="#services" data-i18n="scroll">Листай ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <h2 class="section__title" data-i18n="servicesTitle">Что я делаю</h2>
+      <div class="cards">
+        <article class="glass card">
+          <span class="card__num">01</span>
+          <h3 data-i18n="s1t">Логотипы</h3>
+          <p data-i18n="s1d">Знаки и шрифтовые логотипы, которые читаются в любом размере.</p>
+        </article>
+        <article class="glass card">
+          <span class="card__num">02</span>
+          <h3 data-i18n="s2t">Дизайн</h3>
+          <p data-i18n="s2d">Визуал для брендов, соцсетей и личных проектов.</p>
+        </article>
+        <article class="glass card">
+          <span class="card__num">03</span>
+          <h3 data-i18n="s3t">VRChat</h3>
+          <p data-i18n="s3d">Миры и аватары — от идеи до загрузки в игру.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="section__title" data-i18n="contactTitle">Связь</h2>
+      <div class="contacts">
+        <a class="glass contact" href="https://t.me/Myfkka" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.5 2.8 10.7c-.9.4-.9 1.6.1 1.9l4.6 1.4 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.7 3.5c.7.5 1.6.1 1.8-.7L23 4.8c.2-1-.7-1.7-1.5-1.3ZM9.4 14.2l9-7.3-7.2 8.3-.3 3-1.5-4Z"/></svg>
+          <span class="contact__label">Telegram</span>
+          <span class="contact__value">@Myfkka</span>
+        </a>
+        <button class="glass contact" type="button" id="discordBtn" data-copy="weden19">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 5.3A17 17 0 0 0 15.4 4l-.5 1a15.6 15.6 0 0 0-5.8 0l-.5-1a17 17 0 0 0-4.2 1.3C1.7 9.4 1 13.4 1.3 17.3a17 17 0 0 0 5.2 2.7l1.1-1.8a11 11 0 0 1-1.7-.8l.4-.3a12.2 12.2 0 0 0 11.4 0l.4.3c-.5.3-1.1.6-1.7.8l1.1 1.8a17 17 0 0 0 5.2-2.7c.4-4.5-.7-8.5-3.1-12ZM8.5 14.9c-1 0-1.9-1-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.8 2.1-1.9 2.1Zm7 0c-1 0-1.9-1-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.8 2.1-1.9 2.1Z"/></svg>
+          <span class="contact__label">Discord</span>
+          <span class="contact__value">weden19</span>
+          <span class="contact__hint" data-i18n="copy">нажми, чтобы скопировать</span>
+        </button>
+        <a class="glass contact" href="https://vrchat.com/home/user/usr_9c7b8761-e0fc-4bcc-aa69-f69ea1269a4c" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-4.2a2 2 0 0 1-1.7-1l-1-1.6a1.3 1.3 0 0 0-2.2 0l-1 1.6a2 2 0 0 1-1.7 1H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Zm3.5 3.2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Zm9 0a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Z"/></svg>
+          <span class="contact__label">VRChat</span>
+          <span class="contact__value" data-i18n="vrcValue">Профиль</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Weden19</span>
+  </footer>
+
+  <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
